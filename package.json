@@ -1,0 +1,40 @@
+{
+  "name": "vue-research",
+  "version": "1.0.0",
+  "description": "Изучение Vue",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "config/git/commitizen.js"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g config/git/commitlint.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurifyodorov/vue-research.git"
+  },
+  "author": "Yuri Fedorov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yurifyodorov/vue-research/issues"
+  },
+  "homepage": "https://github.com/yurifyodorov/vue-research#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "commitlint": "^8.3.5",
+    "cz-customizable": "^6.2.0",
+    "husky": "^4.2.3",
+    "serve": "^11.3.0"
+  }
+}
