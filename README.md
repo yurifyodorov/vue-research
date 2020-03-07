@@ -1,4 +1,4 @@
-# vuemastery
+# vue-research
 
 ### Чек лист по пройденным темам:
 
