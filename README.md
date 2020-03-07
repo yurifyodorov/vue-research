@@ -8,3 +8,4 @@
 4. [&#10003;]&nbsp;[разбиение приложения на компоненты](examples/composing-with-components)
 5. [&#10003;]&nbsp;[экземпляр Vue](examples/vue-instance)
 6. [&#10003;]&nbsp;[данные и методы](examples/data-and-methods)
+7. [&#10003;]&nbsp;[свойства экземпляра](examples/instance-properties)&nbsp;не понял
