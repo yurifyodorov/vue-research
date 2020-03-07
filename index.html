@@ -7,8 +7,18 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   </head>
   <body>
-    <div id="app">
-      {{ message }}
+    <div id="app-if">
+      <!-- деректива v-if проверяет значение 'seen' (если seen == false, сообщение не отображается) -->
+      <span v-if="seen">Сейчас меня видно</span>
+    </div>
+
+    <div id="app-for">
+      <ol>
+        <!-- деректива v-for проходит по массиву todos и выводит значения свойства text -->
+        <li v-for="todo in todos">
+          {{ todo.text }}
+        </li>
+      </ol>
     </div>
 
     <script src="index.js"></script>

@@ -31,18 +31,8 @@ module.exports = {
       2,
       'always',
       [
-        'new', // этот добавил я для себя (не входит в config-conventional)
-        'switch_to', // этот добавил я для себя (не входит в config-conventional)
-        'build',
-        'ci',
-        'docs',
-        'feat',
-        'fix',
-        'perf',
-        'refactor',
-        'revert',
-        'style',
-        'test'
+        'complete' // этот добавил я для себя (не входит в config-conventional)
+        // 'switch_to' // этот добавил я для себя (не входит в config-conventional)
       ]
     ]
   }
